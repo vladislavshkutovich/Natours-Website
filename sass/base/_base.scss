@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	/* inheritance from body */
+	box-sizing: inherit;
+}
+
+html {
+	/* font-size: 10px; is actually equal to 62.5% of the default browser's 16px*/
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+}
